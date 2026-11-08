@@ -1,0 +1,26 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: #1b2a1b;
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#game {
+  /* CSS size is set from game.js (keeps 4:3 aspect ratio) */
+  display: block;
+  touch-action: none;           /* stop the browser scrolling/zooming on touch */
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  cursor: none;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
