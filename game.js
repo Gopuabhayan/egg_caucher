@@ -1,6 +1,6 @@
 'use strict';
 /* ==========================================================================
-   EGG CATCHER — plain canvas + vanilla JS
+   ASIFINTE MOTTA PIDETHAM — plain canvas + vanilla JS
    Logical resolution is fixed (W x H); the canvas is scaled to fit the window.
    ========================================================================== */
 
@@ -652,8 +652,8 @@ class Game {
     ctx.fillStyle = 'rgba(0,0,0,0.35)'; ctx.fillRect(0, 0, CONFIG.W, CONFIG.H);
     ctx.textAlign = 'center';
     const small = CONFIG.W < 600;
-    ctx.font = (small ? 'bold 60px' : 'bold 72px') + ' sans-serif'; ctx.lineWidth = 8; ctx.strokeStyle = '#a0521c';
-    ctx.strokeText('Egg Catcher', CONFIG.W / 2, 240); ctx.fillStyle = '#ffe27a'; ctx.fillText('Egg Catcher', CONFIG.W / 2, 240);
+    ctx.font = (small ? 'bold 34px' : 'bold 52px') + ' sans-serif'; ctx.lineWidth = 8; ctx.strokeStyle = '#a0521c';
+    ctx.strokeText('asifinte motta pidetham', CONFIG.W / 2, 240); ctx.fillStyle = '#ffe27a'; ctx.fillText('asifinte motta pidetham', CONFIG.W / 2, 240);
     ctx.fillStyle = '#fff';
     const pulse = 0.65 + 0.35 * Math.sin(performance.now() / 300);
     ctx.globalAlpha = pulse; ctx.font = 'bold 28px sans-serif';
